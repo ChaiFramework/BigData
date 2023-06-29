@@ -1,0 +1,1 @@
+scp -r -i s3887231-cosc2637.pem Lab_1/* hadoop@s3887231.emr.cosc2637.route53.aws.rmit.edu.au:/home/hadoop
