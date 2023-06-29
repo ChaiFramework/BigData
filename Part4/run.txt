@@ -1,0 +1,1 @@
+spark-submit --class streaming.spStream --master yarn --deploy-mode client s3887231_BDP_A4.jar hdfs:///user/arjunpillai1998 /output
