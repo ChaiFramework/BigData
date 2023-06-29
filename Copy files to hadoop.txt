@@ -1,1 +1,13 @@
+
+copy files to hadoop (from outside the folder)
+
 scp -r -i s3887231-cosc2637.pem Lab_1/* hadoop@s3887231.emr.cosc2637.route53.aws.rmit.edu.au:/home/hadoop
+
+connect to hadoop
+
+ssh hadoop@s3887231.emr.cosc2637.route53.aws.rmit.edu.au -i s3887231-cosc2637.pem
+
+copy data file to hadoop
+
+hadoop fs -copyFromLocal trip.txt /
+
